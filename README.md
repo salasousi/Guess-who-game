@@ -20,9 +20,17 @@
 </ul>
 
 <h2>Screenshots</h2>
-![appscreenshot](https://user-images.githubusercontent.com/102608394/206581590-c0329ef3-d7f2-4706-ae69-74dec613bced.png)
+
+![wireframe](https://user-images.githubusercontent.com/102608394/206586114-a7a0460d-0009-4017-8fd1-e9f52fecdc80.png)
+
 </br>
-![appscreenshot2](https://user-images.githubusercontent.com/102608394/206581671-af1c05be-07ec-481b-b27a-3b152ee18ce2.png) 
+
+![appscreenshot](https://user-images.githubusercontent.com/102608394/206585487-86d32d9b-4c04-4050-a20a-bbdbd9adf3b1.png)
+
+</br>
+
+![appscreenshot2](https://user-images.githubusercontent.com/102608394/206585557-6df5ea89-a71d-41d2-8ac4-d24a921e8315.png)
+
 
 
 <h2>Future Enhancements</h2>
