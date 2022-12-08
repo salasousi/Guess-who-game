@@ -1,5 +1,6 @@
 console.log("connected")
 $(function(){
+
 //////////////////
 // VARIABLES
 //////////////////
@@ -25,14 +26,13 @@ const $input = $("input[type='text']");
 const $guessButn = $("#guess");
 const $position = $("position");
 const $playerStats = $("#player-stats");
-const $firstname = $("firstname");
-const $lastname = $("lastname");
+
 
 //////////////////
 // EVENT LISTENERS
 //////////////////
 $guessButn.on("click", guessClick);
-// $playerStats.on("click", handleClick)
+$playerStats.on("click", handleClick)
 
 
 
@@ -58,41 +58,33 @@ getPlayerData();
         render();  
       }, function(error){
         console.log(error);
-      });
-      
-        
+      }); 
     }
     
 
-    //  function handleClick(){
-    //     console.log("click");
-    //  }
+     function handleClick(){
+        console.log("click");
+        $("#hint1").show(3000);
+        $("#hint2").show(3000);
+     }
 
     function guessClick(event){
         event.preventDefault();
         userInput= $("#text").val();
         prevGuesses.push(userInput);
     
-
-        while (guessLimit > 0){
-            prevGuessEl = prevGuesses.join(', ');
-            console.log(prevGuesses);
-            $("#guessesLeft").html(guessLimit);
+        //shows previous guesses in console
+        prevGuessEl = prevGuesses.join(', ');
+        console.log(prevGuesses);
+        $("#guessesLeft").html(guessLimit);
         
-            guessLimit -=1;
-          
-        }
-        if (userInput != ranArr[0].fullname){
+        if (userInput != ranArr[0].lastname){
             console.log("Try again")
+            alert("Incorrect, Try again!")
         } else {
-            console.log("Correct")
+            alert("Correct!")
         }
-        //console.log(ranArr[0].fullname)
-
     }
-
-    
-   
 
     
 function render(){
@@ -105,19 +97,22 @@ function render(){
         return `
         <main data-index="${index}">
         <img id ="playerPic" src = "${player.image_path}"/>
+        <h3 id= "hint1">${player.birthcountry}</h3>
+        <h3 id="hint2">${player.birthdate}</h3>
         </main>
         `;
     });
     $playerStats.html(playerData)
     console.log(ranPlayer.fullname)
 
+    $("#hint1").hide();
+    $("#hint2").hide();
 
     
 }
 {/* <h3>${player.position}</h3> 
     <h3>${player.firstname}</h3>
     <h3>${player.lastname}</h3>
-    <h3>${player.birthcountry}</h3>
 */}
 
 
