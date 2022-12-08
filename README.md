@@ -27,3 +27,4 @@
   </ul>
   
  <h2>My App</h2>
+ Click https://salasousi.github.io/Guess-who-game/ to visit the deployed app!
