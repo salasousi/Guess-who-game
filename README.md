@@ -20,8 +20,9 @@
 </ul>
 
 <h2>Screenshots</h2>
-[screenshot](./Img/appscreenshot)
-[screenshot](./Img/appscreenshot2)
+![screenshot](./Img/appscreenshot.png)
+</br>
+![screenshot](./Img/appscreenshot2.png)
 
 
 <h2>Future Enhancements</h2>
