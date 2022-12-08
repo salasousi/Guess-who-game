@@ -20,7 +20,8 @@
 </ul>
 
 <h2>Screenshots</h2>
-(./Img/Screen Shot 2022-12-08 at 5.11.09 PM)
+[screenshot](./Img/appscreenshot)
+[screenshot](./Img/appscreenshot2)
 
 
 <h2>Future Enhancements</h2>
