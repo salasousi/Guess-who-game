@@ -61,7 +61,6 @@ getPlayerData();
       }); 
     }
     
-
      function handleClick(){
         console.log("click");
         $("#hint1").show(3000);
@@ -92,13 +91,15 @@ function render(){
     let ranPlayer = playerArray [Math.floor(Math.random() * playerArray.length)];
     console.log(ranPlayer)
     ranArr = [ranPlayer]
+    let positionArr = ranPlayer.position
+    let positionInfo = positionArr.data
 
     const playerData = ranArr.map(function(player, index){
         return `
         <main data-index="${index}">
         <img id ="playerPic" src = "${player.image_path}"/>
-        <h3 id= "hint1">${player.birthcountry}</h3>
-        <h3 id="hint2">${player.birthdate}</h3>
+        <h3 id= "hint1">Country: ${player.birthcountry}</h3>
+        <h3 id="hint2">Position: ${positionInfo.name}</h3>
         </main>
         `;
     });

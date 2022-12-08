@@ -37,6 +37,7 @@ h1, h2 {
 #player-stats {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 footer {
@@ -67,7 +68,7 @@ footer {
   }
   
   #button {
-    width: 300px;
+    width: 150px;
     padding: 10px;
     margin-top: 10px;
     align-items: flex-end;
@@ -90,8 +91,37 @@ footer {
     background: linear-gradient(to left top, #8b5db0, #000) fixed;
   }
 
-  h3{
-    
+  #guess{
+    width: 150px;
+    padding: 10px;
+    margin-top: 10px;
+    align-items: flex-end;
+    font-size: 15px;
+    font-weight:bold;
+    outline:none;
+    background: linear-gradient(to left top, #000, #4e2d69) fixed;
+    border-radius: 10px;
+    border: 5px solid rgba(255,255,255,0.2);
+    color: rgba(255,255,255,0.8);
+  }
+
+  #guess:hover {
+    border: 5px solid rgba(255,255,255,0.5);
+    background: linear-gradient(to left top, #000, #8b5db0) fixed;
+  }
+
+  #hint1, #hint2{
+    width: 300px;
+    padding: 10px;
+    margin-top: 10px;
+    justify-content: center;
+    font-size: 15px;
+    font-weight:bold;
+    outline:none;
+    background: linear-gradient(to left top, #000, #4e2d69) fixed;
+    border-radius: 10px;
+    border: 5px solid rgba(255,255,255,0.2);
+    color: rgba(255,255,255,0.8);
   }
 
 
