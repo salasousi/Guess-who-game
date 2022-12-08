@@ -20,9 +20,9 @@
 </ul>
 
 <h2>Screenshots</h2>
-![screenshot](./Img/appscreenshot.png)
+![appscreenshot](https://user-images.githubusercontent.com/102608394/206581590-c0329ef3-d7f2-4706-ae69-74dec613bced.png)
 </br>
-![screenshot](./Img/appscreenshot2.png)
+![appscreenshot2](https://user-images.githubusercontent.com/102608394/206581671-af1c05be-07ec-481b-b27a-3b152ee18ce2.png) 
 
 
 <h2>Future Enhancements</h2>
