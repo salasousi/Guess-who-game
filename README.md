@@ -19,6 +19,10 @@
 <li> Git/Github</li>
 </ul>
 
+<h2>Screenshots</h2>
+(./Img/Screen Shot 2022-12-08 at 5.11.09 PM)
+
+
 <h2>Future Enhancements</h2>
 <ul>
   <li> Set a limit on amount of guesses allowed by user and display to the DOM</li>
@@ -27,4 +31,4 @@
   </ul>
   
  <h2>My App</h2>
- Click https://salasousi.github.io/Guess-who-game/ to visit the deployed app!
+ Click https://fancy-pegasus-21d2c1.netlify.app/ to visit the deployed app!
