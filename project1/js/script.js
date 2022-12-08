@@ -27,7 +27,6 @@ const $guessButn = $("#guess");
 const $position = $("position");
 const $playerStats = $("#player-stats");
 
-
 //////////////////
 // EVENT LISTENERS
 //////////////////
